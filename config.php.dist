@@ -1,0 +1,14 @@
+<?php
+return [
+    'db' => [
+        'host' => '127.0.0.1',
+        'database' => 'iqoption',
+        'username' => 'postgres',
+        'password' => ''
+    ],
+    'mailer' => [
+        'host' => 'localhost',
+        'port' => 1025,
+        'from' => 'noreply@test.ru'
+    ]
+];
