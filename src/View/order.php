@@ -42,7 +42,7 @@
                 Применён бонус: <?php echo $data['cartData']['bonus']['code'] ?> (<?php echo $data['cartData']['bonus']['discount_percent'] ?>%)
             <?php else: ?>
             <form method="post" action="/applyBonus">
-                <label for="bonus"">Бонус-код</label>
+                <label for="bonus">Бонус-код</label>
                 <input type="text"  id="bonus" name="bonus">
                 <button type="submit" class="btn btn-success">Применить</button>
             </form>
