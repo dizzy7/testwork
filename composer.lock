@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a0ea52b31caaa7473b232322acc3e15",
+    "hash": "070162ef7cf69da5d22ee14773f4e948",
+    "content-hash": "f2c93997f9b400625520b90466133564",
     "packages": [
         {
             "name": "swiftmailer/swiftmailer",
@@ -58,7 +59,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-12-29T10:02:40+00:00"
+            "time": "2016-12-29 10:02:40"
         },
         {
             "name": "symfony/http-foundation",
@@ -111,7 +112,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-08T20:47:33+00:00"
+            "time": "2017-01-08 20:47:33"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -170,7 +171,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2016-11-14 01:06:16"
         }
     ],
     "packages-dev": [],
@@ -181,8 +182,7 @@
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.0",
-        "ext-pdo_pgsql": "*",
-        "ext-memcache": "*"
+        "ext-pdo_pgsql": "*"
     },
     "platform-dev": []
 }

@@ -12,7 +12,6 @@
     "require": {
         "php": ">=7.0",
         "ext-pdo_pgsql": "*",
-        "ext-memcache": "*",
         "symfony/http-foundation": "3.2.*",
         "swiftmailer/swiftmailer": "5.4.*"
     },
